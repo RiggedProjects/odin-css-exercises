@@ -1,0 +1,25 @@
+body {
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+p {
+    background-color: #d87093;
+    /* font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+    Had this line here instead of the body, but the even elements had
+    browser default font. End of readme says this is okay, but
+    I like this solution better. */
+}
+
+.big-font {
+    font-size: 24px;
+}
+
+div.big-font {
+    background-color: #90ee90;
+    font-weight: bold;
+}
+
+#second-element {
+    color: #0000ff;
+    font-size: 36px;
+}
