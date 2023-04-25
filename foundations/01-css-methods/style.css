@@ -1,0 +1,10 @@
+div {
+  background-color: red;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  /* font-weight: bold;
+  This is from the solution, but per the lesson a font weight of 700
+  is typically equivilent to bold.*/
+  text-align: center;
+}
