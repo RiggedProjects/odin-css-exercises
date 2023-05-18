@@ -26,9 +26,6 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 img {
@@ -40,8 +37,6 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 12px;
-  margin: 4px;
 }
 
 input {
@@ -52,42 +47,45 @@ input {
   margin-bottom: 16px;
 }
 
-.footer {
-  background-color: #eeeeee;
+/* SOLUTION */
+
+body {
   display: flex;
-  justify-content: space-between;
-  padding: 8px;
+  flex-direction: column;
 }
 
-.header {
+button {
+  padding: 8px 16px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
-  padding: 8px;
+  padding: 16px;
+}
+
+.footer {
+  background: #eee;
 }
 
 ul {
   display: flex;
-  list-style-type: none;
-}
-
-li {
-  padding: 8px;
-}
-
-a {
-  text-decoration: none;
-  color: darkslategray;
-}
-
-.buttons, .input {
-  display: flex;
-  justify-content: center;
-}
-
-.image {
-  margin: 4px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /* width: 90%; */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
 }
