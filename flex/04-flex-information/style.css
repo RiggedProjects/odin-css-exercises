@@ -21,7 +21,6 @@ time, mark, audio, video {
 
 body {
   font-family: 'Courier New', Courier, monospace;
-  text-align: center;
 }
 
 img {
@@ -47,13 +46,22 @@ img {
   background: #eee;
 }
 
-.fruit {
-  max-width: 200px;
-  padding: 26px;
+/* SOLUTION */
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
 }
 
 .container {
   display: flex;
   justify-content: center;
-  padding-top: 6px;
+  gap: 52px;
+}
+
+.fruit {
+  max-width: 200px;
 }
